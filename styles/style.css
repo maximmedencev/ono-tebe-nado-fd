@@ -11,13 +11,11 @@
 
 .header__logo {
   width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
-  display: block;
-  background-image: url("../images/logo-black.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  align-content: center;
   height: 105px;
 }
 
@@ -31,12 +29,11 @@
   max-width: 240px;
 }
 
-.address a{
-   /*кастомное подчеркивание для максимального сходства с макетом*/
-  text-decoration: none; 
-  border-bottom: 1px solid; 
+.address a {
+  /*кастомное подчеркивание для максимального сходства с макетом*/
+  text-decoration: none;
+  border-bottom: 1px solid;
   padding-bottom: 1px;
-  
 }
 
 .header__links-list {
@@ -50,8 +47,8 @@
 }
 
 .header__link {
-  text-decoration: none; 
-  border-bottom: 1px solid; 
+  text-decoration: none;
+  border-bottom: 1px solid;
   padding-bottom: 1px;
 }
 
@@ -101,7 +98,6 @@
 .aligned_text_right {
   text-align: right;
   padding-right: 20px;
-
 }
 
 .no-letter-spacing {
@@ -219,8 +215,8 @@
   line-height: 100%;
   padding-top: 30px;
   margin-left: 40px;
-  text-decoration: none; 
-  border-bottom: 1px solid; 
+  text-decoration: none;
+  border-bottom: 1px solid;
   padding-bottom: 1px;
 }
 
@@ -266,17 +262,14 @@
   line-height: 24px;
   padding-left: 26px;
   padding-top: 104px;
-  
 }
 
-
-.about__text_first-p{
+.about__text_first-p {
   padding-bottom: 23px;
   max-width: 688px;
 }
 
-
-.about__text_second-p{
+.about__text_second-p {
   max-width: 693px;
 }
 
@@ -289,13 +282,12 @@
   line-height: 24.3px;
 }
 
-.footer__address { 
+.footer__address {
   justify-self: start;
   padding-left: 51px;
-
 }
 
-.footer__menu { 
+.footer__menu {
   text-align: center;
 }
 
@@ -312,10 +304,9 @@
 }
 
 .footer__menu-link {
-  text-decoration: none; 
-  border-bottom: 1px solid; 
+  text-decoration: none;
+  border-bottom: 1px solid;
   padding-bottom: 1px;
-
 }
 
 .footer__menu-link_active {
